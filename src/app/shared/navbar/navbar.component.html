@@ -1,6 +1,6 @@
 <nav class="bg-inherit border-gray-200 dark:bg-gray-900 shadow-xl ">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 sm:flex">
-    <a href="https://flowbite.com/" class="flex items-center md:space-x-3 rtl:space-x-reverse mx-auto">
+    <a href="https://flowbite.com/" class="flex items-center md:space-x-3 rtl:space-x-reverse ml-10">
         <img src="../../../assets/logo-karen-3.png" class="h-14 mx-3" alt="Flowbite Logo" />
         <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white lato-bold text-lime-500">Karen Enseñanza</span>
     </a>
@@ -11,11 +11,11 @@
         </svg>
     </button>
     <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-      <ul class="font-bold flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+      <ul class="font-bold flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 mr-10">
 
         @for(link of links; track $index){
           <li class="relative hover:after:border-t-2 hover:after:border-lime-500 hover:after:absolute hover:after:w-full hover:after:top-10 hover:after:left-0">
-            <a [href]=" link.path " class="block py-2 px-3 text-white bg-lime-300 rounded md:bg-transparent md:text-lime-700 md:p-0 dark:text-white md:dark:text-lime-500 lato-bold hover:text-lime-500 md:hover:text-white" aria-current="page"> {{ link.title }} </a>
+            <a [href]=" link.path " class="block py-2 px-3 text-white bg-lime-300 rounded md:bg-transparent md:text-lime-700 md:p-0 dark:text-white md:dark:text-lime-700 lato-bold md:hover:text-lime-500 sm:hover:text-white" aria-current="page"> {{ link.title }} </a>
           </li>
         }
 
