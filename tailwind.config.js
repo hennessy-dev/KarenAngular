@@ -5,7 +5,11 @@ module.exports = {
     "./node_modules/flowbite/**/*.js" 
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        'md': '900px'
+      }
+    }
   },
   plugins: [
     require('flowbite/plugin') 
